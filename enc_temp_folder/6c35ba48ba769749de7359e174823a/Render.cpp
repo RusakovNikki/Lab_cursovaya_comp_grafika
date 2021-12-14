@@ -202,7 +202,7 @@ void BOX(double A[], double B[], double C[], double D[], double K[], bool revers
 
 	glNormal3d((get_Normal(A, B, C, reverse))[0], (get_Normal(A, B, C, reverse))[1], (get_Normal(A, B, C, reverse))[2]);
 	glColor3d(K[0], K[1], K[2]);
-	 
+
 	glVertex3dv(A);
 	glVertex3dv(B);
 	glVertex3dv(C);
